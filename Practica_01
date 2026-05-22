@@ -21,7 +21,7 @@ _start:
     ; === FASE 1: CONFIGURACIÓN ===
     ; Cargamos valores en registros para simular entrada de usuario
     mov rax, 1234       ; rax = código maestro (fijo, como en base de datos)
-    mov rbx, 1234       ; rbx = código ingresado (cambiar para probar)
+    mov rbx, 9999       ; rbx = código ingresado (cambiar para probar)
     
     ; === FASE 2: COMPARACIÓN ===
     ; cmp NO modifica los registros, solo configura "flags" internos del CPU
